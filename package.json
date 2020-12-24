@@ -1,0 +1,13 @@
+{
+  "name": "jeeves",
+  "version": "1.0.0",
+  "description": "Notifications for your Favorite Youtube Channels",
+  "main": "jeeves.js",
+  "author": "Barrett",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "puppeteer": "^5.5.0",
+    "scrape-youtube": "^2.0.7",
+    "winston": "^3.3.3"
+  }
+}
