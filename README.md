@@ -1,4 +1,6 @@
 # Jeeves
+*You rang, sir?*
+
 Jeeves is a discord bot that scrapes for video uploads from your favorite Youtube channels. Why wait for an annoying email notificaion when your favorite robo-butler can issues a ping?
 
 This is an early prototype. Myself and [fkscott](https://github.com/fkscott) are currently working on a more effecient, and centralized version of this bot that utilizes Youtube API calls. While a web scraper is highly inefficient, this repo illustrates the concept we plan to implement.
