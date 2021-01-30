@@ -192,6 +192,23 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                   message: 'You rang, sir?'
               });
           break;
+          case 'help':
+            bot.sendMessage({
+              to: channelID,
+              message: `\`\`\`
+
+| ?ping             Sends back a simple message to check connectivity
+| ?default          Sets discord channel as default for notifications
+| ?checkDefault     Prints a message in the default discord channel
+| ?scan             Manually checks for uploads
+| ?add              Adds a YouTube channel to check videos
+| ?channels         Shows the current list of followed channels
+| ?delete           Removes the specified channel from the list
+| ?judge            Checks if something is based or cringe
+| ?dec2hex          Converts decimal number to hexadecimal
+| ?dec2bin          Converts decimal number to bin\`\`\``
+          });
+          break;
           case 'default':
             console.log(channelID);
             fs.writeFile("defaultChannelID.txt", channelID, err => {
